@@ -15,7 +15,7 @@ def train_rls(X, y, lambdaa, epsilon):
 
     return w, b
 
-
+np.random.seed(0)
 X = np.random.randn(9, 6)
 y = np.random.randn(9, 1)
 lambdaa = 0.0001
